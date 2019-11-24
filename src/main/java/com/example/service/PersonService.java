@@ -36,7 +36,6 @@ public class PersonService {
 	
 	public void update(Person person) {
 		
-		personaRepo.deleteById(person.getId());
 		personaRepo.save(person);
 	}
 	
